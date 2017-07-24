@@ -10,6 +10,9 @@ function Players(names, age, sex, height, battingAvg) {
   this.sex = sex;
   this.playerHeight = height;
   this.battingAvg = battingAvg;
+
+function Team(){
+  var players = [];
 }
 
 var createPlayerList = function(amount){
@@ -24,8 +27,21 @@ var createPlayerList = function(amount){
   }
 }
 
+
+
+// User logic
 $(function(){
+// var player1 = new Player();
+// var player2 = new Player();
+// if (team1 clicked) {
+//   player1.players.push();
+// }else {
+//   playe2.players.push();
+// }
+
   $(".player li").click(function(){
+    createPlayerList();
+    
     var currentPlayer = $(this).html();
     console.log(currentPlayer);
     $("#details ul").append('<li>' + currentPlayer + '</li');
