@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+
+=======
+>>>>>>> e88afadcbc77b4635fc74571bcc39b838e3a41d1
 var teamOne = [];
 var teamTwo = [];
 var unpickedPlayers = [];
@@ -45,5 +49,10 @@ $(function(){
     var currentPlayer = $(this).html();
     console.log(currentPlayer);
     $("#details ul").append('<li>' + currentPlayer + '</li');
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> e88afadcbc77b4635fc74571bcc39b838e3a41d1
   });
 });
