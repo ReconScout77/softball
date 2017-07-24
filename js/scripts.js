@@ -47,8 +47,9 @@ $(function(){
 
   $(".player li").click(function(){
     var currentPlayer = $(this).html();
+
     var unpickedPlayersIndex = ($(this).data("player"));
     $(".details h2").text(unpickedPlayers[unpickedPlayersIndex].playerName);
-
+    
   });
 });
