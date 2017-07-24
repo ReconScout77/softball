@@ -56,7 +56,8 @@ $(function(){
     console.log(unpickedPlayers[unpickedPlayersIndex].profilePic)
     $(".details h2").text(unpickedPlayers[unpickedPlayersIndex].playerName);
     $(".details h2").append(unpickedPlayers[unpickedPlayersIndex].sex);
-    $(".details h2").append("<img src=img/"+unpickedPlayers[unpickedPlayersIndex].profilePic+">");
+    $(".image-player").text('');
+    $(".image-player").append("<img src=img/"+unpickedPlayers[unpickedPlayersIndex].profilePic+">");
 
   });
 });

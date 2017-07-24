@@ -1,7 +1,47 @@
-.details {
+body {
+  background-image: url("../img/soft.jpg");
+}
+#teamName {
   text-align: center;
+  font-style: italic;
+}
+#team1 ul {
+  /*background-image: url("../img/felt.png");*/
+  z-index: 999;
+  color: black!important;
+  text-align: center;
+  list-style-type: none;
+  font-size: 26px;
+  font-weight: bolder;
+
+}
+#team2 ul {
+  /*background-image: url("../img/felt.png");*/
+  z-index: 999;
+  color: black!important;
+  text-align: center;
+  list-style-type: none;
+  font-size: 26px;
+  font-weight: bolder;
 }
 
+
+
+.details {
+  /*text-align: center;*/
+  margin-left: 70px;
+}
+
+h1 {
+  text-align: center;
+}
+img{
+  height: 200px;
+    width: 200px;
+    border: 1px solid green;
+    border-radius: 100px;
+    padding: 20px;
+}
 .team {
   border: 1px solid black;
 }
