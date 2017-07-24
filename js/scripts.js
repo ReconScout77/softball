@@ -41,7 +41,7 @@ $(function(){
 
   $(".player li").click(function(){
     createPlayerList();
-    
+
     var currentPlayer = $(this).html();
     console.log(currentPlayer);
     $("#details ul").append('<li>' + currentPlayer + '</li');
