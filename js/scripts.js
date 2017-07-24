@@ -1,25 +1,28 @@
-//business interface logic
-
-var Player = function(name,position,sex,height,rbi,era,battingAverage,onBasePercentage) {
-  this.name = name;
-  this.position = position;
-  this.sex = sex;
-  this.height = height;
-  this.rbi = rbi;
-  this.era = era;
-  this.battingAverage = battingAverage;
-  this.onBasePercentage = onBasePercentage;
-}
-
+<<<<<<< HEAD
 var teamOne = [];
 var teamTwo = [];
 var unpickedPlayers = [];
+var name = ["Sam", "John", "Amy", "Jaime", "Sarah", "Tom", "Jesse", "Bob", "David", "Tari", "William", "Harrison", "Victor", "Thomas", "Larry",  ]
+var age = [16, 21, 30, 40, 24, 26, 29,]
+
+function Players(name, age, sex, height, battingAvg) {
+  this.playerName = name;
+  this.age = age;
+  this.sex = sex;
+  this.playerHeight = height;
+  this.battingAvg = battingAvg;
+}
 
 
 
-//user interface logic
-$(document).ready(function() {
-  $("#draft").click(function() {
-    $("#team").append("<li>" + "Player" + "</li>");
+
+
+$(function(){
+  $(".player li").click(function(){
+    var currentPlayer = $(this).html();
+    console.log(currentPlayer);
+    $("#details ul").append('<li>' + currentPlayer + '</li');
+
+>>>>>>> ff4ac95dfa8b915deb90e8b0987cd30a48e12c84
   });
 });
