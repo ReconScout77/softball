@@ -1,0 +1,20 @@
+.details {
+  text-align: center;
+}
+
+.team {
+  border: 1px solid black;
+}
+
+.sidebar {
+  border: 1px solid black;
+}
+
+.sidebar li {
+  color:skyblue;
+  cursor:pointer;
+}
+
+.sidebar li:hover {
+  text-decoration: underline;
+}
