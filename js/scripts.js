@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 var teamOne = [];
 var teamTwo = [];
 var unpickedPlayers = [];
@@ -23,6 +23,5 @@ $(function(){
     console.log(currentPlayer);
     $("#details ul").append('<li>' + currentPlayer + '</li');
 
->>>>>>> ff4ac95dfa8b915deb90e8b0987cd30a48e12c84
   });
 });
